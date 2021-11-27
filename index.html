@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="icon" href="imgs/logo.png">
+    <link rel="manifest" href="js/manifest.json" crossorigin="use-credentials"/>
+
+    <title>Florencia Montani, PWA</title>
+</head>
+    <body>
+        <header class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid px-0">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Botón del menú">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="barra">
+                    <ul class="navbar-nav mx-auto text-center">
+                      <li class="nav-item">
+                        <a class="nav-link" href="">Favorites</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#productos">Bestones</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+            
+                <section class="container">
+                    <div class="row text-center mt-5">
+                    <h1 id="" class="col-12 mx-auto">Dream World</h1>
+                        <div class="col-1">
+                            <div id="status" class="online">
+                                <p id="msgStatus">Online</p>
+                            </div>
+                            <div id="loading" class="loading">
+                                <p>Loading...</p>
+                            </div>
+                    </div>
+                    </div>
+            </section>
+            <section class="container text-center">
+                <div class="row text-center">
+                    <div class="col-6 mx-auto intro">
+                <h2 class="mt-5">Buscá la pelicula</h2>
+                <p>Contamos con más de 3.000 películas de todos los tiempos</p>
+                <p>Pulsá el botón de favoritos para guardarla en tus preferencias</p>
+                <form class="mb-3">
+                    <input class="form-control me-2" type="search" placeholder="Search..." id="search" aria-label="Search">
+                    <button class="btn btn-outline-success mt-2" type="submit" id="submite">Search</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+            </section>
+            <main>
+                <div id="filmLoad">
+
+                </div>
+                <div class="noConection">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse unde facilis illum, quas ex, reprehenderit animi pariatur ad explicabo hic mollitia totam minus, vitae velit. Voluptates quibusdam placeat ex sed.
+                    </p>
+
+                </div>
+            </main>
+            <script src="js/main.js"></script>
+            <script src="js/register-sw.js"></script>
+            <script src="style/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
