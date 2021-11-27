@@ -2,7 +2,7 @@
   "name": "Dream World",
   "short_name": "DW",
   "theme_color": "#3aadca",
-  "background_color": "#FFFFF",
+  "background_color": "#ffffff",
   "display": "browser",
   "orientation": "portrait",
   "scope": "/",
